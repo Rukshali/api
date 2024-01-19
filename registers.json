@@ -1,0 +1,23 @@
+[
+    {
+        "first_name":"Rukshali",
+        "last_name":"Sahani",
+        "email":"rs@gmail.com",
+        "phone":12345,
+        "password":"abc"
+    },
+    {
+        "first_name":"Shali",
+        "last_name":"Sahani",
+        "email":"ss@gmail.com",
+        "phone":67890,
+        "password":"def"
+    },
+    {
+        "first_name":"Naira",
+        "last_name":"",
+        "email":"n@gmail.com",
+        "phone":54321,
+        "password":"ghi"
+    }
+]

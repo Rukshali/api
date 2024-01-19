@@ -5,6 +5,7 @@ const connectDB=require("./db/connect");
 const PORT=process.env.PORT || 5000;
 
 const products_routes=require("./routes/products");
+const registers_routes=require("./routes/registers");
 
 app.get("/",(req,res)=>{
     res.send("Hi i am live");
@@ -12,6 +13,7 @@ app.get("/",(req,res)=>{
 
 //middleware or to set router
 app.use("/api/products",products_routes);
+app.use("/api/registers",registers_routes);
 
 const start=async()=>{
     try{

@@ -9,6 +9,6 @@ const connectDB = ()=>{
         //useNewUrlParser:true,     my code was not supporting this line...
         //useUnifiedToplogy:true,   my code was not supporting this line...
     });
-};
+};                     
 
 module.exports=connectDB;
